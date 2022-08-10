@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif; 
+    background-color: aqua;
+}
+
+.container-main{
+    width: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-bottom: 30px;
+}
+.img-hero{
+    width: 99%;
+    margin: 0px auto;
+    border-top-left-radius:30px ;
+    border-top-right-radius: 30px;
+    padding: 0px;
+}
+
+.contenido-hero h2{
+    margin: 20px auto;
+    color: hsl(223, 47%, 23%)
+}
+.container-main P{
+    color: hsl(224, 23%, 55%);
+    width: 75%;
+    margin: 0px auto;
+    font-size: 13px;
+}
+
+.container-ico-musica{
+    margin: 30px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-ico-musica a{
+    font-size: 13px;
+}
+.container-ico-musica p{
+    margin: 0px;
+}
+
+.container-ico-musica a:hover{
+    text-decoration: none;
+    color:hsl(224, 23%, 55%) ;
+}
+
+.container-enlaces{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-enlaces a{
+    display: inline-block;
+    padding: 13px 30px;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.a-uno{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+}
+.a-uno:hover{
+    background-color: hsl(223, 47%, 23%);
+}
+
+.a-dos{
+    background-color:hsl(224, 23%, 55%) ;
+    color: hsl(225, 100%, 98%);  
+}
+.a-dos:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+@media (min-width:1000px) {
+
+        .container-enlaces{
+            width: 90%;
+        }
+
+        .container-ico-musica img{
+            width: 80px;
+        }
+        .container-ico-musica h4{
+            font-size: 24px;
+        }
+        .container-ico-musica p{
+            font-size: 20px;
+        }
+
+        .contenido-hero p{
+            font-size: 20px;
+        }
+}
+
